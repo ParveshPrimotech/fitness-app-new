@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:fitness_app_new/controller/functionsController.dart';
-import 'package:fitness_app_new/view/screens/homepage/componenets/playButton.dart';
 import 'package:fitness_app_new/view/screens/work%20out%20details/componenets/RatingStars.dart';
 
 import '../../../../helpers/string_methods.dart';
-import '../../../widgets/general_widgets/actionButton.dart';
 import '../../work out details/workOutDetails.dart';
 
 class MainWorkoutCard extends StatelessWidget {

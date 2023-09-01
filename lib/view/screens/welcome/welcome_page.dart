@@ -5,7 +5,6 @@ import 'package:fitness_app_new/config/Colors.dart';
 import 'package:fitness_app_new/config/images%20sources.dart';
 import 'package:fitness_app_new/config/text.dart';
 import 'package:fitness_app_new/view/widgets/general_widgets/titleWithDescription.dart';
-import 'package:fitness_app_new/view/screens/toggle%20laungage/chooseLaungagePage.dart';
 import '../../../controller/functionsController.dart';
 import '../../../config/show_delay_mixin.dart';
 import '../../../helpers/string_methods.dart';

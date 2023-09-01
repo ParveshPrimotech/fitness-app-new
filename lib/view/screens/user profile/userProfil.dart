@@ -4,16 +4,11 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:fitness_app_new/controller/functionsController.dart';
 import 'package:fitness_app_new/config/Colors.dart';
-import 'package:fitness_app_new/config/text.dart';
 import 'package:fitness_app_new/view/widgets/common_app_bar.dart';
-import 'package:fitness_app_new/view/widgets/general_widgets/button.dart';
 import 'package:fitness_app_new/view/widgets/setting_list_tile.dart';
 import '../../../controller/authControllers/signOutController.dart';
 import '../../../controller/userController/userController.dart';
-import '../../../config/UserProfile/userProfil.dart';
 import '../../../helpers/string_methods.dart';
-import 'components/appBar.dart';
-import 'components/stat.dart';
 import 'customizeProfilePage.dart';
 
 class UserProfile extends StatefulWidget {

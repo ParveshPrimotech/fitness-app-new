@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:fitness_app_new/view/screens/excercise_timer/excercise_timer_controller.dart';
 import 'package:fitness_app_new/view/widgets/general_widgets/timer_navigations_widget.dart';
-
 import '../../../config/Colors.dart';
 import '../../widgets/general_widgets/countdown_settting_popup.dart';
 

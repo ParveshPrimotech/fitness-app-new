@@ -5,7 +5,6 @@ import 'package:fitness_app_new/controller/functionsController.dart';
 import 'package:fitness_app_new/view/widgets/common_app_bar.dart';
 import '../../../controller/userProfileOptions/userProfileOptionsController.dart';
 import '../../../helpers/string_methods.dart';
-import 'components/appBar.dart';
 
 class CustomProfileSettings extends StatelessWidget {
   CustomProfileSettings({Key? key})

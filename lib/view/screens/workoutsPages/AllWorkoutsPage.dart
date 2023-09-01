@@ -4,13 +4,11 @@ import 'package:get/get.dart';
 import 'package:fitness_app_new/controller/functionsController.dart';
 import 'package:fitness_app_new/config/Colors.dart';
 import 'package:fitness_app_new/config/text.dart';
-import 'package:fitness_app_new/view/screens/homepage/componenets/avatar.dart';
 import 'package:fitness_app_new/view/widgets/common_app_bar.dart';
 import '../../../controller/userController/userController.dart';
 import '../../../config/workouts lists/workouts Lists.dart';
 import '../../../helpers/string_methods.dart';
 import '../homepage/componenets/tabBarViewSections.dart';
-import '../user profile/userProfil.dart';
 import 'components/mainWorkoutCard.dart';
 
 class AllWorkoutsPage extends StatelessWidget {

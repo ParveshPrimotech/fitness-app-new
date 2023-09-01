@@ -2,7 +2,6 @@ import 'package:delayed_display/delayed_display.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:fitness_app_new/config/Colors.dart';
-import 'package:fitness_app_new/config/text.dart';
 import 'package:fitness_app_new/config/workouts%20lists/workouts%20Lists.dart';
 import 'package:fitness_app_new/view/screens/user%20profile/userProfil.dart';
 
@@ -12,10 +11,9 @@ import '../../../controller/userController/userController.dart';
 import '../../../config/images sources.dart';
 import '../../../helpers/string_methods.dart';
 import '../../widgets/general_widgets/screen_background_image.dart';
+
 import 'componenets/HomePageSearchBar.dart';
-import 'componenets/ItemsSwitchTiles.dart';
 import 'componenets/find_your_workout.dart';
-import 'componenets/playButton.dart';
 import 'componenets/tabBarViewSections.dart';
 import 'componenets/usernameAndProfile.dart';
 
