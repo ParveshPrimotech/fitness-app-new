@@ -11,7 +11,7 @@ class HomePageSearchBar extends StatelessWidget {
         Expanded(
           flex: 9,
           child: ClipRRect(
-            borderRadius: BorderRadius.circular(50),
+            borderRadius: BorderRadius.circular(10),
             child: TextField(
               textAlign: TextAlign.left,
               style: const TextStyle(color: Colors.white),
@@ -47,16 +47,17 @@ class HomePageSearchBar extends StatelessWidget {
                 // controller.showFilterDialog(context);
               }),
               child: Container(
-                padding: const EdgeInsets.all(5),
+                height: 44,
+                width: 44,
                 decoration: BoxDecoration(
                   color: Colors.red.withAlpha(100),
                   borderRadius:
-                      const BorderRadius.all(Radius.elliptical(10, 10)),
+                      const BorderRadius.all(Radius.circular(10)),
                 ),
                 child: const Icon(
                   Icons.filter_list,
                   color: Colors.white,
-                  size: 26,
+                  size: 20,
                 ),
               ),
             ))

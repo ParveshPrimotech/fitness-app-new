@@ -21,7 +21,7 @@ class FindYourWorkout extends GetView<FunctionsController> {
         children: [
           // const TextSpan(text: " "),
           TextSpan(
-            text: capitalize(AppTexts.feelGreat),
+            text: " ${capitalize(AppTexts.feelGreat)}",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Theme.of(context).primaryColor,
